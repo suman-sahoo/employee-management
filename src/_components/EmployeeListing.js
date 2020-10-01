@@ -67,7 +67,7 @@ const  EmployeeListing = (props) => {
           <CloseIcon />
         </IconButton>
         <Typography variant="h6" className={classes.title}>
-          Employee listing
+          Enquiry listing
         </Typography>
        
       </Toolbar>
