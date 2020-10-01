@@ -24,7 +24,7 @@ const columns = [
   { id: 'name', label: ' Name'},
   { id: 'email', label: 'Email Id' },
   { id: 'mobileno', label: 'Mobile No'},
-  { id: 'address', label: 'Addres'},
+  { id: 'enquiry', label: 'Enquiry Details'},
    
 ];
 
