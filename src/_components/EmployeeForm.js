@@ -58,7 +58,7 @@ const EmployeeForm = (props)=>{
       <form onSubmit={formik.handleSubmit}>
         <Card className={classes.card}>
           <CardContent>
-            <h1 className={classes.textCenter}>Employee Details</h1>
+            <h1 className={classes.textCenter}>Enquiry Details Form</h1>
             <TextField
               id="name"
               label="Name"
@@ -98,8 +98,8 @@ const EmployeeForm = (props)=>{
             />
              <TextField
               id="address"
-              label="Address"
-              type="number"
+              label="Enquiry Details"
+              type="text"
               onChange = {formik.handleChange}
               onBlur = {formik.handleBlur}
               value = {formik.values.address}
